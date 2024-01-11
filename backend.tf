@@ -3,6 +3,6 @@ terraform {
     bucket = "9am-test-demo"
     key = "terraform.tfstate"
     region = "ap-south-1"
-    dynamodb_table = "DynamoDbLock"
+    #dynamodb_table = "DynamoDbLock"
   }
 }
